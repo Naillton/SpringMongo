@@ -21,6 +21,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("org.springframework.data:spring-data-jpa:3.1.2")
 	implementation("javax.persistence:javax.persistence-api:2.2")
+	implementation("org.springframework:spring-webflux:6.0.11")
 }
 
 tasks.withType<Test> {
